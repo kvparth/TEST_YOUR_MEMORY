@@ -1,8 +1,9 @@
 {
   "name": "test_your_memory",
   "version": "1.0.0",
-  "description": "",
+  "description": "A memory game for matching colors",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "jest"
   },
@@ -11,13 +12,11 @@
     "url": "git+https://github.com/kvparth/TEST_YOUR_MEMORY.git"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/kvparth/TEST_YOUR_MEMORY/issues"
-  },
-  "homepage": "https://github.com/kvparth/TEST_YOUR_MEMORY#readme",
+  "author": "parth_gaurav",
   "devDependencies": {
-    "jest": "^29.7.0"
+    "@babel/plugin-transform-modules-commonjs": "^7.27.1",
+    "@babel/preset-env": "^7.27.1",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0"
   }
 }

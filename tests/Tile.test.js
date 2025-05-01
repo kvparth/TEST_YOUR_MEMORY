@@ -1,4 +1,4 @@
-import { flipTile , canFlipTile} from '../src/components/Tile';
+import { flipTile , canFlipTile} from '../src/components/Tile.js';
 
 test('flipTile should mark tile as flipped', () => {
   const tile = { flipped: false };
