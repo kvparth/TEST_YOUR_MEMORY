@@ -1,0 +1,24 @@
+# Node.js
+node_modules/
+.env
+dist/
+coverage/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jest
+jest.config.js
+coverage/
+test-results.xml
+
+# Gitpod
+.gitpod/
+
+# VSCode
+.vscode/

@@ -1,0 +1,23 @@
+{
+  "name": "test_your_memory",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kvparth/TEST_YOUR_MEMORY.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kvparth/TEST_YOUR_MEMORY/issues"
+  },
+  "homepage": "https://github.com/kvparth/TEST_YOUR_MEMORY#readme",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
