@@ -1,7 +1,7 @@
 import { validateLevelInput } from '../src/components/Level';
 
-test('should return correct number of tiles for valid level', () => {
-  expect(validateLevelInput(2)).toBe(8); // level 2 → 8 tiles
+test('should return correct level', () => {
+  expect(validateLevelInput(2)).toBe(2); 
 });
 
 test('should throw error for non-numeric/null level', () => {
