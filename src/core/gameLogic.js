@@ -1,5 +1,5 @@
-export function isMatch(tile1, tile2) {
-    return tile1.color === tile2.color;
+export function isMatch(board, index1, index2) {
+    return board[index1] === board[index2];
 }
 
 export function updateScore(currentScore, matched) {

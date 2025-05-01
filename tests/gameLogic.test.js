@@ -1,4 +1,4 @@
-import { isMatch, updateScore, checkGameOver } from '../src/core/gameLogic';
+import { isMatch, updateScore, checkGameOver, canFlip } from '../src/core/gameLogic';
 
 test('isMatch returns true if colors match', () => {
     const board = ['red', 'blue', 'red'];
